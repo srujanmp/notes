@@ -3,247 +3,41 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>NMAMIT NOTES</title>
-  
-  <style>
-    input {
-      display: grid;
-      width: 50%;
-      text-align: center;
-      background-color: #eee;
-      border-radius: 5px;
-      border: none;
-    }
-
-    button {
-      border-radius: 5px;
-      border: 1px solid grey;
-      background-color: #dbd5d5;
-      text-align: center;
-    }
-    button:hover {
-      background-color: #c9c9c9;
-    }
-    @media only screen and (max-width: 768px) {
-
-      input,
-      .table {
-        width: 75%;
-      }
-    }
-
-    * {
-      font-size: 18px;
-      font-family: "Google Sans", sans-serif;
-    }
-
-    nav {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 1rem;
-      background-color: #eee;
-    }
-
-    .logo {
-      height: 50px;
-    }
-
-    ul {
-      list-style: none;
-      margin: 0;
-      padding: 0;
-    }
-
-    li {
-      display: inline-block;
-      padding: 0.5rem;
-    }
-
-    a {
-      text-decoration: none;
-      color: #333;
-    }
-
-    .credit {
-      font-size: 14px;
-    }
-    
-    .dark-mode {
-            background-color: black;
-            color: white;
-        }
- 
-        .light-mode {
-            background-color: white;
-            color: black;
-        }
-    .dark-nav{
-      background-color:#242322;
-      color:white;
-      }
-  /* Style for the buttons */
-  .button {
-    display: block;
-    width: 200px; /* Adjust width as needed */
-    padding: 10px;
-    margin: 10px auto; /* Centers the buttons horizontally */
-    text-align: center;
-    background-color: #007bff; /* Button color */
-    color: #fff; /* Text color */
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    text-decoration: none;
-    font-size: 16px;
-  }
-a,button,input{
--webkit-tap-highlight-color:transparent;
-
-
-}
-
-.button-30 {
-
-  align-items: center;
-  appearance: none;
-  background-color: #FCFCFD;
-  border-radius: 4px;
-  border-width: 0;
-  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
-  box-sizing: border-box;
-  color: #36395A;
-  cursor: pointer;
-  display: inline-flex;
-  font-family: "JetBrains Mono",monospace;
-  height: 60px;
-  justify-content: center;
-  line-height: 1;
-  list-style: none;
-  overflow: hidden;
-  padding-left: 16px;
-  padding-right: 16px;
-  position: relative;
-  text-align: left;
-  text-decoration: none;
-  transition: box-shadow .15s,transform .15s;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  white-space: nowrap;
-  will-change: box-shadow,transform;
-  font-size: 27px;
-}
-
-.button-30:focus {
-  box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
-}
-
-.button-30:hover {
-  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
-  transform: translateY(-2px);
-}
-
-.button-30:active {
-  box-shadow: #D6D6E7 0 3px 7px inset;
-  transform: translateY(2px);
-}
-
-.button-30.solulu {
-  background-color: #1d1d1d;
-  color: #fff;
-  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #000 0 -3px 0 inset;
-}
-
-.button-30.solulu:hover {
-  box-shadow: rgba(16, 98, 254, 0.45) 0 4px 12px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #000 0 -3px 0 inset;
-}
-
-@media only screen and (max-width: 480px) {
-  .button-30.solulu {
-    font-size: 18px;
-  }
-}
-
-.slogan {
-  font-size: 13px;
-  color: #888;
-  margin: 0 0 24px;
-}
-
-.slogan a {
-  font-size: 13px;
-  color: #1062fe;
-}
+<title>NMAMIT Notes · moved to solulu.dev</title>
+<meta name="description" content="NMAMIT notes (chemistry cycle, physics cycle and semester folders) now live at solulu.dev/notes.">
+<meta name="robots" content="noindex, follow">
+<link rel="canonical" href="https://solulu.dev/notes">
+<meta http-equiv="refresh" content="2; url=https://solulu.dev/notes?utm_source=nmamit_notes&amp;utm_medium=redirect&amp;utm_campaign=github_notes">
+<script>
+  // keep any query string (for example utm tags on a shared link) and go straight to the new page
+  (function () {
+    var q = new URLSearchParams(location.search);
+    if (!q.has("utm_source")) { q.set("utm_source", "nmamit_notes"); q.set("utm_medium", "redirect"); q.set("utm_campaign", "github_notes"); }
+    location.replace("https://solulu.dev/notes?" + q.toString());
+  })();
+</script>
+<style>
+  :root { --bg: #f7f7f8; --surface: #fff; --fg: #1d1d1f; --fg2: #6e6e73; --line: #e6e6e8; --accent: #2563eb; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #111213; --surface: #18191b; --fg: #f2f2f3; --fg2: #9a9aa0; --line: #26272a; --accent: #60a5fa; } }
+  * { box-sizing: border-box; }
+  body { margin: 0; min-height: 100vh; display: grid; place-items: center; padding: 16px; background: var(--bg); color: var(--fg); font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+  main { width: min(420px, 100%); padding: 32px 28px; text-align: center; background: var(--surface); border: 1px solid var(--line); border-radius: 18px; }
+  .brand { font-family: ui-monospace, Menlo, Consolas, monospace; font-weight: 600; font-size: 17px; }
+  .brand span { color: var(--fg2); }
+  h1 { font-size: 22px; letter-spacing: -.02em; margin: 18px 0 8px; }
+  p { color: var(--fg2); line-height: 1.55; margin: 0 0 22px; }
+  .spin { width: 22px; height: 22px; margin: 0 auto 18px; border: 2.5px solid var(--line); border-top-color: var(--accent); border-radius: 50%; animation: s .8s linear infinite; }
+  @keyframes s { to { transform: rotate(360deg); } }
+  a.btn { display: inline-block; padding: 12px 20px; border-radius: 999px; background: var(--fg); color: var(--bg); text-decoration: none; font-weight: 600; }
 </style>
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7237617952637805"
-     crossorigin="anonymous"></script>
 </head>
 <body>
-<center>
-  <nav>
-            <a href="https://www.instagram.com/srujanmpadmashali" class="credit">MADE BY SRUJAN M PADMASHALI</a>
-            <ul>
-
-              <li><a href="#">*</a></li>
-              <li><a href="#">*</a></li>
-              <li><a href="#">*</a></li>
-            </ul>
-          </nav>
-<br>
-<br>
-
-<!-- Button 1 -->
-<a href="https://drive.google.com/drive/folders/14kso_XKqnAht5HYfF1uYmxyXy8jHGs9-?usp=drive_link" class="button-30">ALL DRIVE LINKS</a>
-<br>
-<br>
-
-<!-- Button 2 -->
-<a href="https://drive.google.com/drive/folders/1QlSXX74gAnuAlKNt2WqmnMXCBu5gq0GI?usp=drive_link" class="button-30">CHEMISTRY CYCLE</a>
-<br>
-<br>
-<!-- Button 3 -->
-<a href="https://drive.google.com/drive/folders/1M-Qr4Fl8GcW72lW4OWrwP-iXuTVobwzE?usp=drive_link" class="button-30">PHYSICS CYCLE</a>
-<br>
-<br>
- <a style="background-color:#32CD32;color:white;" href="https://drive.google.com/drive/folders/1Y_1VFEgt7Cb9w3h6m0qD7uGVIUujfRP6?usp=drive_link" class="button-30">7th sem INFORMATION SCIENCE</a>
-<br>
-<br>
-<!-- solulu.dev -->
-<a href="https://solulu.dev/?utm_source=nmamit_notes&utm_medium=referral" target="_blank" rel="noopener" class="button-30 solulu">PLACEMENT PREP &rarr; solulu.dev</a>
-<br>
-<br>
-<center>
-<br>
-<br>
-  <br>
-<br>
-  <br>
-<br>
-  <br>
-<br>
-
-  <br>
-<br>
-  <br>
-<br>
-
-  <br>
-<br>
-  <br>
-<br>
-
-  <br>
-<br>
-  <br>
-<br>
-
-  <br>
-<br>
-  <br>
-<br>
-
-<p class="slogan">Notes get you through semesters. <a href="https://solulu.dev/?utm_source=nmamit_notes&utm_medium=referral" target="_blank" rel="noopener">solulu</a> gets you placed.</p>
-
+<main>
+  <div class="brand">solulu<span>.dev</span></div>
+  <h1>NMAMIT notes have moved</h1>
+  <p>Chemistry cycle, physics cycle and every semester's folders now live on solulu.dev. Taking you there…</p>
+  <div class="spin" aria-hidden="true"></div>
+  <a class="btn" href="https://solulu.dev/notes?utm_source=nmamit_notes&amp;utm_medium=redirect&amp;utm_campaign=github_notes">Open the notes</a>
+</main>
 </body>
 </html>
